@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>泉の女神</title>
+        <style>
+           #gold{background:rgb(249, 209, 109);}
+           #silver{background:silver;}
+           #tea{background:whitesmoke;}
+        </style>
+        <script>
+            function msg(){
+                alert("そもそも色付きの絵茶ってなんですか？");
+            }
+        </script>
+    </head>
+    <body>
+        <h1>こんにちは！</h1>
+        <h2>あなたが落としたのは金の絵茶ですか？</h2>
+        <h2>銀の絵茶ですか？</h2>
+        <h2>それともただの絵茶ですか？</h2>
+
+        <div id="oops!">
+            <button onclick="msg()" id="gold">金の絵茶っ！！</button>
+            <button onclick="msg()" id="silver">銀の絵茶〜！！</button>
+            <button onclick="location.href='honest.html'" id="tea">ただの絵茶。</button>
+        </div>
+
+        <h6>※金の斧銀の斧って女神じゃなくてヘルメスらしいよ</h6>
+        <h6>※あと泉じゃなくて川らしいよ</h6>
+       
+    </body>
+</html>
